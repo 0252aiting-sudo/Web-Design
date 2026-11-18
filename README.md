@@ -58,7 +58,7 @@ Shopee/
 
 ## Project 2: TechVantage Solutions
 
-A responsive digital consulting website developed as a group project using HTML, CSS and JavaScript.
+A responsive digital consulting company website developed as a group project by three students using HTML, CSS and a small amount of JavaScript.
 
 ### Technologies Used
 - HTML
@@ -71,13 +71,12 @@ A responsive digital consulting website developed as a group project using HTML,
 - About Us page
 - Contact Us page
 - Portfolio page
-- Responsive website layout
-- Navigation menu
-- Flexbox and CSS Grid layouts
-- JavaScript-based navigation interaction
+- Responsive navigation bar
+- Mobile hamburger menu
+- Mobile-friendly website layout
 
----
-
-## Author
-
-Goh Ai Ting
+### Responsive Design
+- CSS Media Queries
+- Flexbox
+- CSS Grid
+- Responsive layouts for desktop, tablet and mobile devices

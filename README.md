@@ -1,4 +1,3 @@
-@'
 # Web Design Projects
 
 This repository contains website development projects completed during my Diploma in Computer Science studies at New Era University College.

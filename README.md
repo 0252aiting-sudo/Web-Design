@@ -4,7 +4,7 @@ This repository contains website development projects completed during my Diplom
 
 ## Project 1: Shopee Website Redesign
 
-A static e-commerce website redesign inspired by Shopee, developed using HTML, CSS, and images.
+A static e-commerce website redesign inspired by Shopee, developed using HTML and CSS.
 
 ### Technologies Used
 - HTML
@@ -17,7 +17,7 @@ A static e-commerce website redesign inspired by Shopee, developed using HTML, C
 - Women's Clothes page
 - Mobile page
 - Product and promotional images
-- Website navigation between category pages
+- Navigation between category pages
 
 ### Project Structure
 ```text
@@ -29,3 +29,10 @@ Shopee/
 ├── mobile.html
 ├── mystyle.css
 └── image/
+```
+
+### Screenshots
+*Screenshots of the website will be added here.*
+
+## Author
+Goh Ai Ting

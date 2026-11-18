@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechVantage Solutions</title>
+        <link rel="stylesheet" href="home_styles.css"> 
+        <script src="scripts.js" defer></script>
+        <link rel="icon" type="png" href="image/logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    <!-- Responsive Meta Tag -->
+    </head>
+    <body>
+        <header>
+            <section class="head_menu">  <!-- Added scrollable class -->
+                <div class="logo head">
+                   <img src="image/logo.png" alt="TechVantage Solutions Logo"> 
+                </div>
+                <div class="dropdown head"> <!-- Added head class -->
+                    <button id="dropbtn" type="button">☰</button>
+                    <nav class="topnav">
+                        <a href="home.html">Home</a>
+                        <a href="portfolio.html" id="active">Portfolio</a>
+                        <div class="services">  <!-- Changed to div for dropdown -->
+                            <a href="services.html">Services</a>
+                            <div class="service_content">   <!-- Dropdown content -->
+                                <a href="services.html#web_design">Web Design</a>
+                                <a href="services.html#application_design">Application Design</a>
+                                <a href="services.html#ui_ux">UI/UX Design</a>
+                                <a href="services.html#digital_marketing">Digital Marketing</a>
+                            </div>
+                        </div>
+                        <a href="about_us.html">About Us</a>
+                        <a href="contact_us.html">Contact Us</a>
+                    </nav>
+                </div>   
+            </section>
+            <section class="top_intro">
+                <section class="header-text">
+                    <h2 class=" move_down float_down">WELCOME TO TECH VANTAGE SOLUTIONS AGENCY</h2>
+                    <p class=" move_down float_down"><b>IT & DIGITAL MARKETING SOLUTIONS</b><br>TECHVANTAGE SOLUTIONS</p>
+                </section>
+        </header>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>    <!-- Back to Top Button -->
+        <section class="explore">
+            <h3>Explore Our Innovative Web Designs</h3>
+            <section class="explore_content">   <!-- Changed to section for semantics -->
+                <div class="explore_slideshow">
+                    <div class="slideshow_image">
+                        <img src="image/intro_3.1.webp" alt="intro_3.1">
+                    </div>
+                    <div class="slideshow_info">
+                        <h4>Sustainable Gardens for Tomorrow</h4>
+                        <button>View More</button>
+                    </div>
+                </div>
+                <div class="explore_slideshow">
+                    <div class="slideshow_image">
+                        <img src="image/intro_3.2.webp" alt="intro_3.2">
+                    </div>
+                    <div class="slideshow_info">
+                        <h4>Innovative Tech Solutions</h4>
+                        <button>View More</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <div class="footer_section logo_text">
+                <img src="image/logo.png" alt="TechVantage Solutions Logo" class="footer-logo">
+                <p>Our company has been developing high-quality and reliable software corporate needs.</p>
+            </div>
+            <div class="footer_section">
+                <h2>Quick Links</h2>
+                <nav class="footer_links">
+                    <a href="services.html#web_design">Web Design</a>
+                    <a href="services.html#digital_marketing">Digital Marketing</a>
+                    <a href="services.html#application_design">Application Design</a>
+                </nav>
+            </div>
+            <div class="footer_section">
+                <h2>Important Links</h2>
+                <nav class="footer_links">
+                    <a href="about_us.html">About Us</a>
+                    <a href="contact_us.html">Contact Us</a>
+                    <a href="services.html">Services</a>
+                </nav>
+            </div>
+            <div class="footer_section">
+                <h2>Our Contact</h2>
+                <div class="contact">
+                    <img src="image/office.png" alt="office icon">
+                    <p>office@techvantagesolutions.co</p>
+                </div>
+                <div class="contact">
+                    <img src="image/location.png" alt="location icon">
+                    <p> Meydan GrandStand, 6th floor, Meydan Road, Malaysia</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

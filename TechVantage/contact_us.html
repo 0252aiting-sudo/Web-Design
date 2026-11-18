@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - TechVantage Solutions</title>
+    <link rel="stylesheet" href="home_styles.css">
+    <link rel="stylesheet" href="aboutAndContactUs.css">
+    <script src="scripts.js" defer></script>
+    <link rel="icon" type="png" href="image/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <section class="head_menu">
+            <div class="logo head">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            
+            <div class="dropdown head">
+                <button id="dropbtn" type="button">☰</button>
+                <nav class="topnav">
+                    <a href="home.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <div class="services">
+                        <a href="services.html">Services</a>
+                        <div class="service_content">
+                            <a href="services.html#web_design">Web Design</a>
+                            <a href="services.html#application_design">Application Design</a>
+                            <a href="services.html#ui_ux">UI/UX Design</a>
+                            <a href="services.html#digital_marketing">Digital Marketing</a>
+                        </div>
+                    </div>
+                    <a href="about_us.html">About Us</a>
+                    <a href="contact_us.html" id="active">Contact Us</a>
+                </nav>
+            </div>   
+        </section>
+        <section class="top_intro">
+            <section class="header-text">
+                <h2 class="move_down float_down">CONTACT US</h2>
+                <p class="move_down float_down"><b>GET IN TOUCH</b><br>WE ARE HERE TO HELP</p>
+            </section>
+        </section>
+    </header>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
+
+    <section class="contact_details">
+        <h2>WHERE ARE HERE FOR YOU</h2>
+        <div class="contact_details_cards">
+           <div class="contact_details_card">
+                <img src="image/clock.png" alt="clock">
+                <h3>Opening Hours</h3>
+                <p>Mon - Thu: 10:00am - 05:00pm</p>
+            </div>
+            <div class="contact_details_card">
+                <img src="image/email.png" alt="email">
+                <h3>Our Email</h3>
+                <p>office@techvantagesolutions.co</p>
+            </div> 
+        </div>
+    </section>
+
+    <section class="contact_page_wrapper">
+        <!-- Left Side: Contact Form -->
+        <div class="contact_form_container">
+            <h3>Send us a Message</h3>
+            <p>Have a project in mind? Fill out the form below.</p>
+            
+            <form action="#" method="POST" class="main_contact_form">
+                <div class="form_group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form_group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit_btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Right Side: Contact Info & Map -->
+        <div class="contact_info_container">
+            <h3>Contact Information</h3>
+            <div class="info_item">
+                <img src="image/location.png" alt="Address">
+                <p>Meydan GrandStand, 6th floor, Meydan Road, Malaysia.</p>
+            </div>
+            <div class="info_item">
+                <img src="image/office.png" alt="Email">
+                <p>office@techvantagesolutions.co</p>
+            </div>
+            <div class="info_item">
+                <img src="image/web.png" alt="Phone"> <!-- You can replace with a phone icon -->
+                <p>+60 12-345 6789</p>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social_icons">
+                <a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/"><img src="image/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/"><img src="image/instagram.png" alt="Instagram"></a>
+            </div>
+
+            <!-- Google Map Embed -->
+            <div class="map_container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.824248867376!2d101.6936!3d3.1390!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3629e4693335%3A0x629577782488825!2sKuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2smy!4v1700000000000!5m2!1sen!2smy" 
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+            <div class="subscribe_content">
+                <div class="sub_text">
+                    <h1>Subscribe to our Newsletter</h1>
+                    <p>Stay updated with the latest news and offers from TechVantage Solutions.</p>
+                </div>
+                <div class="sub_input">
+                    <input type="email" placeholder="Enter your email"> <!-- Changed type to email for validation -->
+                    <input type="submit" value="Send">  <!-- Changed type to submit for form submission -->
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer_section logo_text">
+            <img src="image/logo.png" alt="TechVantage Solutions Logo" class="footer-logo">
+            <p>Our company has been developing high-quality and reliable software corporate needs.</p>
+        </div>
+        <div class="footer_section">
+            <h2>Quick Links</h2>
+            <nav class="footer_links">
+                <a href="services.html#web_design">Web Design</a>
+                <a href="services.html#digital_marketing">Digital Marketing</a>
+                <a href="services.html#application_design">Application Design</a>
+            </nav>
+        </div>
+        <div class="footer_section">
+            <h2>Important Links</h2>
+            <nav class="footer_links">
+                <a href="about_us.html">About Us</a>
+                <a href="contact_us.html">Contact Us</a>
+                <a href="services.html">Services</a>
+            </nav>
+        </div>
+        <div class="footer_section">
+            <h2>Our Contact</h2>
+            <div class="contact">
+                <img src="image/office.png" alt="office icon">
+                <p>office@techvantagesolutions.co</p>
+            </div>
+            <div class="contact">
+                <img src="image/location.png" alt="location icon">
+                <p> Meydan GrandStand, 6th floor, Meydan Road, Malaysia</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

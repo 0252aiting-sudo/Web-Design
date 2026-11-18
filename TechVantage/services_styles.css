@@ -1,0 +1,208 @@
+/* ------ Services Webpage Styles ------*/
+    /* Header Style */
+    .header-text h5{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-size: small;
+    }
+    .header-text h6{
+        text-align: center;
+        margin: 20px;
+    }
+
+    /* Service Intro Section Style */
+    .service_intro h3{
+        color: #FD4D00;
+    }
+    .service_intro p{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .service_intro_card{
+        text-align: center;
+        margin-block: 50px;
+        padding: 20px;
+        padding-inline: 50px;
+    }
+    .service_intro{
+        margin: 20px;
+        margin-top: 100px;
+    }
+    .service_intro_card img{
+        border: #FD4D00 solid 2px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 50px;
+    }
+    .service_intro_card button, .service_intro_4 button{
+        border: none;
+        color: #FD4D00;
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .service_intro_card button:hover, .service_intro_4 button:hover{
+        transform: scale(1.05);
+        transition: 0.5s ease;
+        background-color: #c9c8c8;
+        color: black;
+    }
+    .service_intro_card img{
+        border: #FD4D00 solid 2px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 50px;
+    }
+
+    /* Service Intro 2 Section Style */
+    .service_intro_2{
+        margin: 40px;
+        margin-block: 100px;
+    }
+    .service_intro_2 h2{
+        color: #FD4D00;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .benefits_card{
+        text-align: center;
+        margin-block: 80px;
+        background-color: #ffcab3;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    .benefits_card:hover{
+        transform: scale(1.05);
+        transition: 0.2s linear;
+    }
+    .benefits_card img{
+        width: 80px;
+    }
+    .benefits_card h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Service Intro 4 Section Style */
+    .service_intro_4{
+        margin: 40px;
+        margin-top: 100px;
+        border-bottom: #ffcab3 solid 2px;
+    }
+    .service_intro_4 h4{
+        color: #FD4D00;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .service_intro_4 h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .service_intro_4 h5{
+        color: #807e7e;
+        font-size: larger;
+    }
+    .service_intro_4 img{
+        width: 80%;
+        border-radius: 10px;
+        height: auto;
+    }
+    .intro_details{
+        margin-bottom: 80px;
+    }
+    .intro_details p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+@media (max-width: 767px){
+    
+    /* Header Style */
+    .header-text h5, .header-text h1{
+        margin: 20px;
+    }
+
+    /* Service Intro 4 */
+    .service_intro_4 img{
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .service_intro_cards{
+        display: grid;  /* Use grid layout */
+        grid-template-columns: auto auto;   /* Two columns */
+        width: 90%;
+        margin: 0 auto;
+    }
+    .service_intro_card{
+        margin-inline: 20px;
+        padding: 20px;
+    }
+
+    .benefits_cards{
+        display: grid;  /* Use grid layout */
+        grid-template-columns: auto auto;   /* Two columns */
+        width: 90%;
+        margin: 0 auto;
+    }
+    .benefits_card{
+        margin: 20px;
+    }
+
+    .details_column{
+        display: flex;
+    }
+    .details_column img{
+        width: 50%;
+    }
+    .intro_details:nth-child(even) .details_column {
+        flex-direction: row-reverse;
+    }
+    .intro_details:nth-child(even) .details_text{
+        margin-left: 0;
+    }
+    .details_text{
+        margin-inline: 50px;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1023px) {
+    .service_top_intro{
+        padding-bottom: 20%;
+    }
+
+    .service_intro_cards{
+        display: grid;  /* Use grid layout */
+        grid-template-columns: auto auto auto auto;   /* Two columns */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .benefits_cards{
+        display: grid;  /* Use grid layout */
+        grid-template-columns: auto auto auto auto;   /* Two columns */
+        width: 90%;
+        margin: 0 auto;
+    }
+    .benefits_card{
+        margin: 20px;
+    }
+
+    .service_intro_4{
+        margin-inline: 15%;
+    }
+    .details_column{
+        display: flex;
+    }
+    .details_column img{
+        width: 40%;      
+    }
+    .intro_details:nth-child(even) .details_column {
+        flex-direction: row-reverse;
+    }
+    .intro_details:nth-child(even) .details_text{
+        margin-left: 0;
+    }
+    .details_text{
+        margin-inline: 50px;
+        width: 60%;
+    }
+}

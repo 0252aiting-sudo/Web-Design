@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechVantage Solutions</title>
+        <link rel="stylesheet" href="home_styles.css">
+        <script src="scripts.js" defer></script>
+        <link rel="icon" type="png" href="image/logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    <!-- Responsive Meta Tag -->
+    </head>
+    <body>
+        <header>
+            <section class="head_menu">  <!-- Added scrollable class -->
+                <div class="logo head">
+                   <img src="image/logo.png" alt="TechVantage Solutions Logo"> 
+                </div>
+                <div class="dropdown head"> <!-- Added head class -->
+                    <button id="dropbtn" type="button">☰</button>
+                    <nav class="topnav">
+                        <a href="home.html" id="active">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <div class="services">  <!-- Changed to div for dropdown -->
+                            <a href="services.html">Services</a>
+                            <div class="service_content">   <!-- Dropdown content -->
+                                <a href="services.html#web_design">Web Design</a>
+                                <a href="services.html#application_design">Application Design</a>
+                                <a href="services.html#ui_ux">UI/UX Design</a>
+                                <a href="services.html#digital_marketing">Digital Marketing</a>
+                            </div>
+                        </div>
+                        <a href="about_us.html">About Us</a>
+                        <a href="contact_us.html">Contact Us</a>
+                    </nav>
+                </div>   
+            </section>
+            <section class="top_intro">
+                <section class="header-text">
+                    <h2 class=" move_down float_down">WELCOME TO TECH VANTAGE SOLUTIONS AGENCY</h2>
+                    <p class=" move_down float_down"><b>IT & DIGITAL MARKETING SOLUTIONS</b><br>TECHVANTAGE SOLUTIONS</p>
+                </section>
+                <section class="intro_1">
+                    <div class="intro_1_column">
+                        <img src="image/web.png" alt="Web">
+                        <h4>Web</h4>
+                    </div>
+                    <div class="intro_1_column">
+                        <img src="image/application.png" alt="Application">
+                        <h4>Application</h4>
+                    </div>
+                    <div class="intro_1_column">
+                        <img src="image/digital.png" alt="Digital">
+                        <h4>Digital</h4>
+                    </div>
+                    <div class="intro_1_column">
+                        <img src="image/ui_ux.png" alt="UX/UI">
+                        <h4>UX/UI</h4>
+                    </div>
+                </section>
+            </section>
+        </header>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>    <!-- Back to Top Button -->
+        <section class="intro_2">
+            <img src="image/intro2_image.jpg" alt="intro2_image">
+            <div class="intro_2_text">
+                <h5>Customized to Boost Your Business Efficiency</h5>
+                <h3>Reliable and Affordable Custom Software</h3>
+                <p>Our development services provide tailored software solutions that enhance efficiency and drive innovation. We specialize in custom applications, web development, and system integration, ensuring your business achieves its goals with cutting-edge technology and expert support throughout the entire development process.</p>
+            </div>
+        </section>
+        <section class="explore">
+            <h3>Explore Our Innovative Web Designs</h3>
+            <section class="explore_content">   <!-- Changed to section for semantics -->
+                <div class="explore_slideshow">
+                    <div class="slideshow_image">
+                        <img src="image/intro_3.1.webp" alt="intro_3.1">
+                    </div>
+                    <div class="slideshow_info">
+                        <h4>Sustainable Gardens for Tomorrow</h4>
+                        <button>View More</button>
+                    </div>
+                </div>
+                <div class="explore_slideshow">
+                    <div class="slideshow_image">
+                        <img src="image/intro_3.2.webp" alt="intro_3.2">
+                    </div>
+                    <div class="slideshow_info">
+                        <h4>Innovative Tech Solutions</h4>
+                        <button>View More</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="intro_4">
+            <div class="intro_4_content">
+                <img src="image/intro_4.webp" alt="intro4_image">
+            </div>
+            <div class="intro_4_content">
+                <div class="intro_4_text">
+                    <h5>We Are TechVantagesolutions</h5>
+                    <h3>Malaysia’s Popular Software Development Agency</h3>
+                    <h4>Leading software development agency delivering innovative solutions, custom applications, and expert consulting to enhance your business’s digital transformation journey.</h4>
+                </div>
+                <div class="examples">
+                    <h3>We have a talented team of skilled engineers from around the world.</h3>
+                    <h3>We help you adapt to meet market demands.</h3>
+                </div>
+            </div>
+        </section>
+        <section class="intro_5">
+            <div class="intro_5_title">
+                <div class="intro_5_title_content">
+                    <h5>WHAT WE PROVIDE</h5>
+                    <h1>We offer the most<br>Popular IT Services</h1>
+                </div>
+                <div class="intro_5_title_content">
+                    <button>ALL SERVICES</button>
+                </div>
+            </div>
+            <div class="intro_5_columns">
+                <div class="intro_5_column">
+                    <h3>Single Page App</h3>
+                    <p>Tailored software solutions designed to meet unique business needs.</p>
+                </div>
+                <div class="intro_5_column">
+                    <h3>WordPress</h3>
+                    <p>User-friendly platform for creating and managing websites effortlessly.</p>
+                </div>
+                <div class="intro_5_column">
+                    <h3>Search Engine Optimization (SEO)</h3>
+                    <p>Improving website visibility and ranking on search engine results.</p>
+                </div>
+            </div> 
+        </section>
+        <section class="customer_review">
+            <h4>OUR CUSTOMERS REVIEW</h4>
+            <h3>What our clients say</h3>
+            <div class="review_cards">  <!-- Changed to div for semantics -->
+                <div class="cards_container">   <!-- Changed to div for semantics -->
+                    <div class="card mySlides fade"> <!-- Removed mySlides class and onclicks -->
+                        <img src="image/review1.png" alt="review1">
+                        <h4>John Doe</h4>
+                        <p>"TechVantage Solutions transformed our online presence with a stunning website and effective SEO strategies. Highly recommend!"</p>
+                    </div>
+                    <div class="card mySlides fade"> <!-- Removed mySlides class and onclicks -->
+                        <img src="image/review2.png" alt="review2">
+                        <h4>Jane Smith</h4>
+                        <p>"The team at TechVantage Solutions delivered a custom software solution that perfectly fits our business needs. Exceptional service!"</p>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a> <!-- Changed to anchor for semantics -->
+                <a class="next" onclick="plusSlides(1)">❯</a>  <!-- Changed to anchor for semantics -->
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe_content">
+                <div class="sub_text">
+                    <h1>Subscribe to our Newsletter</h1>
+                    <p>Stay updated with the latest news and offers from TechVantage Solutions.</p>
+                </div>
+                <div class="sub_input">
+                    <input type="email" placeholder="Enter your email"> <!-- Changed type to email for validation -->
+                    <input type="submit" value="Send">  <!-- Changed type to submit for form submission -->
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_section logo_text">
+                <img src="image/logo.png" alt="TechVantage Solutions Logo" class="footer-logo">
+                <p>Our company has been developing high-quality and reliable software corporate needs.</p>
+            </div>
+            <div class="footer_section">
+                <h2>Quick Links</h2>
+                <nav class="footer_links">
+                    <a href="services.html#web_design">Web Design</a>
+                    <a href="services.html#digital_marketing">Digital Marketing</a>
+                    <a href="services.html#application_design">Application Design</a>
+                </nav>
+            </div>
+            <div class="footer_section">
+                <h2>Important Links</h2>
+                <nav class="footer_links">
+                    <a href="about_us.html">About Us</a>
+                    <a href="contact_us.html">Contact Us</a>
+                    <a href="services.html">Services</a>
+                </nav>
+            </div>
+            <div class="footer_section">
+                <h2>Our Contact</h2>
+                <div class="contact">
+                    <img src="image/office.png" alt="office icon">
+                    <p>office@techvantagesolutions.co</p>
+                </div>
+                <div class="contact">
+                    <img src="image/location.png" alt="location icon">
+                    <p> Meydan GrandStand, 6th floor, Meydan Road, Malaysia</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

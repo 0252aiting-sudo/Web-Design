@@ -7,12 +7,10 @@ This repository contains website development projects completed during my Diplom
 A static e-commerce website redesign inspired by Shopee, developed using HTML and CSS.
 
 ### Technologies Used
-
 - HTML
 - CSS
 
 ### Features
-
 - Home page
 - Home & Living page
 - Men's Clothes page
@@ -22,7 +20,6 @@ A static e-commerce website redesign inspired by Shopee, developed using HTML an
 - Navigation between category pages
 
 ### Project Structure
-
 ```text
 Shopee/
 ├── home.html
@@ -56,6 +53,30 @@ Shopee/
 
 #### Mobile
 ![Mobile](Shopee/screenshots/mobile.png)
+
+---
+
+## Project 2: TechVantage Solutions
+
+A responsive digital consulting website developed as a group project using HTML, CSS and JavaScript.
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+### Features
+- Home page
+- Services page
+- About Us page
+- Contact Us page
+- Portfolio page
+- Responsive website layout
+- Navigation menu
+- Flexbox and CSS Grid layouts
+- JavaScript-based navigation interaction
+
+---
 
 ## Author
 

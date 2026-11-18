@@ -7,10 +7,12 @@ This repository contains website development projects completed during my Diplom
 A static e-commerce website redesign inspired by Shopee, developed using HTML and CSS.
 
 ### Technologies Used
+
 - HTML
 - CSS
 
 ### Features
+
 - Home page
 - Home & Living page
 - Men's Clothes page
@@ -20,6 +22,7 @@ A static e-commerce website redesign inspired by Shopee, developed using HTML an
 - Navigation between category pages
 
 ### Project Structure
+
 ```text
 Shopee/
 ├── home.html
@@ -28,11 +31,32 @@ Shopee/
 ├── womenClothes.html
 ├── mobile.html
 ├── mystyle.css
-└── image/
+├── image/
+└── screenshots/
+    ├── home.png
+    ├── home_and_living.png
+    ├── men_clothes.png
+    ├── mobile.png
+    └── women_clothes.png
 ```
 
 ### Screenshots
-![Shopee Homepage](Shopee/screenshots/homepage.png)
+
+#### Home Page
+![Shopee Homepage](Shopee/screenshots/home.png)
+
+#### Home & Living
+![Home & Living](Shopee/screenshots/home_and_living.png)
+
+#### Men's Clothes
+![Men's Clothes](Shopee/screenshots/men_clothes.png)
+
+#### Women's Clothes
+![Women's Clothes](Shopee/screenshots/women_clothes.png)
+
+#### Mobile
+![Mobile](Shopee/screenshots/mobile.png)
 
 ## Author
+
 Goh Ai Ting

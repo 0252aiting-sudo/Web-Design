@@ -32,7 +32,7 @@ Shopee/
 ```
 
 ### Screenshots
-*Screenshots of the website will be added here.*
+![Shopee Homepage](Shopee/screenshots/homepage.png)
 
 ## Author
 Goh Ai Ting
